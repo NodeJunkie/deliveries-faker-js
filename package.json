@@ -12,7 +12,6 @@
     "bluebird": "^3.5.0",
     "browser-request": "^0.3.3",
     "json-schema-faker": "^0.5.0-rc6",
-    "osrm": "^5.7.3",
     "osrm-isochrone": "github:NodeJunkie/osrm-isochrone",
     "osrm.js": "^5.5.0",
     "pouchdb": "^6.2.0",

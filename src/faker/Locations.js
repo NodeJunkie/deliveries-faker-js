@@ -80,7 +80,7 @@ class FakerLocations {
     getBounds() {
         return new Promise((resolve, reject) => {
             if (this.bounds) resolve(this.bounds)
-            else request.get("http://whosonfirst.mapzen.com/data/859/483/77/85948377.geojson",
+            else request("https://whosonfirst.mapzen.com/data/859/483/77/85948377.geojson",
                 (error, response, body) => {
                     if (body) {
                         this.bounds = JSON.parse(body);

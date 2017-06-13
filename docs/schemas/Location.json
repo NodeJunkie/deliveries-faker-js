@@ -1,0 +1,13 @@
+{
+  "type": "object",
+  "properties": {
+    "_id": {
+      "type": "string",
+      "format": "email",
+      "faker": "internet.email"
+    }
+  },
+  "required": [
+    "id"
+  ]
+}

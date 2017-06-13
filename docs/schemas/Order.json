@@ -1,0 +1,27 @@
+{
+  "type": "object",
+  "properties": {
+    "_id": {
+      "type": "string"
+    },
+    "customer_id": {
+      "$ref": "./docs/schemas/Location.json#/properties/_id"
+    },
+    "restaurant_id": {
+      "$ref": "./docs/schemas/Location.json#/properties/_id"
+    },
+    "driver_id": {
+      "$ref": "./docs/schemas/Location.json#/properties/_id"
+    },
+    "status": {
+      "type": "string",
+      "enum": ["new", "preparing", "order-up", "picked-up", "delivered"]
+    }
+  },
+  "required": [
+    "id",
+    "customer_id",
+    "restaurant_id",
+    "status"
+  ]
+}

@@ -14,7 +14,7 @@
     "json-schema-faker": "^0.5.0-rc6",
     "osrm-isochrone": "github:NodeJunkie/osrm-isochrone",
     "osrm.js": "^5.5.0",
-    "pouchdb": "^6.2.0",
+    "pouchdb": "^7.1.0",
     "pouchdb-erase": "^1.0.2"
   }
 }
